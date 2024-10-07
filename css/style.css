@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    position: relative;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.imagem img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:5px solid #e70042db;
+}
+.text1{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
