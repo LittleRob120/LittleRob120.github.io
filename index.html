@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- Header -->
 
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
@@ -26,11 +27,18 @@
         </div>
     </nav>
 
-    <div class="imagem">
-        <img src="img/Imagem minha.jfif" alt="Imagem" >
+    <!-- Imagem com o nome (colocar uma animação) -->
+
+    <div style="padding-top: 5px;">
+        <div class="imagem">
+            <img src="img/Imagem_minha.jfif" alt="">
+            <!-- <img src="img/sett.avif" alt="Imagem" > -->
+        </div>
+        <br>
+        <h1 class="text1">Gabriel Robert Sousa da Silva</h1>
     </div>
-    <br>
-    <h1 class="text1">Gabriel Robert Sousa da Silva</h1>
+
+    <!-- Containers com animação -->
 
     <div id="sobre" class="flex-container">
         <div class="container" style="background: none;">
@@ -40,15 +48,11 @@
                 </div>
     
                 <div class="content">
-                    <p class="desc text1">
+                    <p class="desc text1" style="padding-top: 5px;font-size: 20px;">
                         <strong>
                             Meu nome é Gabriel Robert Sousa da Silva, sou estudante da Fatec no curso de Desenvolvimento de Software Multplataforma. 
                             Atualmente estou ajundando no <a href="#projetos" style="text-decoration: line; color: white;">projeto da API</a> 
-                            da faculdade sendo responsavel pela raspagem de dados. <br> <br>
-                            Competências Técnicas: <br>
-                            &bull;Linguagens: Python, SQL, HTML e Css <br>
-                            &bull;Framework: Flask <br>
-                            &bull;Ferramentas: Git, MySQL e Vscode Studio <br>
+                            da faculdade sendo responsavel pela raspagem de dados.
                         </strong>
                     </p>
                 </div>
@@ -68,9 +72,11 @@
                <div class="content">
                    <p class="desc">
                        <strong class="text1">
-                            &bull; Desenvolvimento de Software Multplataforma - Fatec Sjc (2024-202X)<br> <br>
-                            &bull; Desenvolvimento de Jogos - SAGA Sjc (2019-2021) <br> <br>
-                            &bull;	Design de Sites e Desing de Sites para celulares - Senai Sjc (2022-2022) <br> <br>
+                            &bull;Ensino médio - Escola: Prof Diácono Hamilton Bontorim de Souza - Conclusão em 2023 <br><br>
+                            &bull;  Desenvolvimento de Software Multplataforma - Fatec Sjc (2024-202X)<br> <br>
+                            &bull;  Desenvolvimento de Jogos - SAGA Sjc (2019-2021) <br> <br>
+                            &bull;  Design de Sites e Desing de Sites para celulares - Senai Sjc (2022-2022) <br> <br>
+                            &bull;  Implantação de Serviços em Nuvem AWS Cloud - Senai/online Sjc (2022-2022)
                        </strong>
                    </p>
                </div>
@@ -82,11 +88,40 @@
         </div>
         
     </div>
+
+    <!-- Textos separados -->
+
+    <div style="padding-top: 100px;">
+        <div>
+            <h1 class="text1">Habilidades e Competencias</h1>
+        </div>
+        <div>
+            <strong>
+                <h3 class="text2">Habilidades: </h3>
+                <p class="text2">
+                    &bull;	Dinâmico e responsável; <br>
+                    &bull;	Comunicativo; <br>
+                    &bull;	Proativo; <br>
+                    &bull;	Capacidade em trabalhar em equipe; <br>
+                    &bull;   Bom em comunicação; <br>
+                    &bull;  Conhecimento com Pacote Adobe. <br>
+                    
+                </p>
+                <h3 class="text2">Competências Técnicas: </h3>
+                <p class="text2">
+                    &bull;  Linguagens: Python, SQL, HTML e Css; <br>
+                    &bull;  Framework: Flask; <br>
+                    &bull;  Ferramentas: Git, MySQL e Vscode Studio; <br>
+                </p>
+            </strong>
+        </div>
+    </div>
+
     
 
     <br><br><br>
-
-    <div id="projetos" class="container-fluid text-white container text1" style="border-radius: 16px;">
+     <!-- Projetos (arrumar pq n tá responsivo) -->
+    <div id="projetos" class="container-fluid text-white container text1" style="border-radius: 16px;padding-top: 150px;">
         <h1 style="position: absolute; margin-bottom: 530px;">Projetos</h1>
         <p>
             <strong>
@@ -96,15 +131,15 @@
             </strong>
         </p>
     </div>
-    
-    <div class="text1">
+    <!-- Contato -->
+    <div class="text1" id="contato" style="padding-top: 200px;">
         <h1>Contatos:</h1>
     </div>
-    <div id="contato" class="text1">
+    <div class="text2">
         <p>
-            Github: <a href="https://github.com/LittleRob120" style="text-decoration: line;color: white;">https://github.com/LittleRob120</a><br>
-            E-mail: gabriel360pam@gmail.com <br>
-            Linkedin: <a href="https://www.linkedin.com/in/gabriel-robert-123ba7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap" style="text-decoration: line;color: white;">Gabriel Robert Sousa da Silva</a><br>
+            <img src="/img/github.png" alt="" style="width: 20px;height: 25px; padding-bottom: 5px;">   Github: <a href="https://github.com/LittleRob120" style="text-decoration: line;color: white;">https://github.com/LittleRob120</a><br>
+            <img src="/img/gmail.png" alt="" style="width: 15px;height: 20px; padding-bottom: 5px;">   E-mail: gabriel360pam@gmail.com <br>
+            <img src="/img/linkedin.png" alt="" style="width: 15px;height: 20px; padding-bottom: 5px;">   Linkedin: <a href="https://www.linkedin.com/in/gabriel-robert-123ba7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap" style="text-decoration: line;color: white;">Gabriel Robert Sousa da Silva</a><br>
         </p>
     </div>
 
